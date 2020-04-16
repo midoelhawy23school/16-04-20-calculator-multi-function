@@ -285,7 +285,26 @@ public class LogicSolver extends Fragment {
 
         }
 
+      }else if((data.get(i).equals("0") || data.get(i).equals("1"))){
+          if((nextElemnt.equals("0") || nextElemnt.equals("1"))){
+            if(nextElemnt.equals("0") || data.get(i).equals("0")){
+              data.set(i,"0");
+              data.remove(i + 1);
+            }else {
+              data.set(i,"1");
+              data.remove(i + 1);
+            }
+          }else if((prevElement.equals("0") || prevElement.equals("1"))){
+            if(prevElement.equals("0") || data.get(i).equals("0")){
+              data.set(i,"0");
+              data.remove(i - 1);
+            }else {
+              data.set(i,"1");
+              data.remove(i - 1);
+            }
+          }
       }
+
     }
 
     return data;
@@ -316,6 +335,7 @@ public class LogicSolver extends Fragment {
 
 
 
+
   public boolean prepareOperation(List data){
     boolean LatsElement;
 
@@ -338,10 +358,12 @@ public class LogicSolver extends Fragment {
         Operations.removeAll(Operations);
         Operations.add("True");
         TvMonitor.setText("True");
+        TvDubger.setText("");
       }else if(data.get(0).equals("0")){
         Operations.removeAll(Operations);
         Operations.add("False");
         TvMonitor.setText("False");
+        TvDubger.setText("");
       }else{
         TvDubger.setText(getText(R.string.i_cant_resolve_this_expression));
       }
