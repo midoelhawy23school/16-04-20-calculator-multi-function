@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.LogicSolver">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="@string/logic_calcolator"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        app:fontFamily="@font/lemon" />
+
+    <TextView
+        android:id="@+id/TvMonitor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/example_logic_equetion"
+        android:textSize="24sp"
+        app:fontFamily="@font/lemonada_light" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:orientation="horizontal">
+
+      <Button
+          android:id="@+id/BtnNot"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="2"
+          android:background="@color/secondary"
+          android:text="NOT"
+          android:textColor="@color/white"
+          android:textSize="18sp" />
+
+      <Button
+          android:id="@+id/BtnOr"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="2dp"
+          android:layout_marginRight="2dp"
+          android:layout_weight="2"
+          android:background="@color/info"
+          android:text="OR"
+          android:textColor="@color/white"
+          android:textSize="18sp" />
+
+      <Button
+          android:id="@+id/BtnAnd"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="2"
+          android:background="@color/warning"
+          android:text="AND"
+          android:textColor="@color/white" />
+
+      <Button
+          android:id="@+id/BtnCancelChar"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="0"
+          android:background="@color/danger"
+          android:drawableLeft="@android:drawable/ic_input_delete"
+          android:paddingLeft="30dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+      <Button
+          android:id="@+id/BtnBraketsOpen"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="2px"
+          android:layout_weight="1"
+          android:background="@color/colorPrimary"
+          android:text="("
+          android:textColor="@color/white"
+          android:textSize="24sp" />
+
+      <Button
+          android:id="@+id/BtnBraketsClose"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="2px"
+          android:layout_weight="1"
+          android:background="@color/colorPrimary"
+          android:text=")"
+          android:textColor="@color/white"
+          android:textSize="24sp" />
+
+      <Button
+          android:id="@+id/BtnEqual"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="2px"
+          android:layout_weight="1"
+          android:background="@color/Success"
+          android:text="="
+          android:textColor="@color/white"
+          android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+      <Button
+          android:id="@+id/BtnTrue"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:background="@color/Success"
+          android:text="TRUE"
+          android:textColor="@color/white"
+          android:textSize="24sp" />
+
+      <Button
+          android:id="@+id/BtnFalse"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="2dp"
+          android:layout_marginRight="2dp"
+          android:layout_weight="1"
+          android:background="@color/danger"
+          android:text="FALSE"
+          android:textColor="#FFFFFF"
+          android:textSize="24sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/TvDubger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/danger"
+        android:textSize="24sp"
+        app:fontFamily="@font/lemonada_light" />
+
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"></LinearLayout>
+
+
+</FrameLayout>

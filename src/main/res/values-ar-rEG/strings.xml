@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">الالة الحاسبة المتكملة</string>
+    <string name="welcome_msg" >مرحبا بك</string>
+    <string name="logic_calcolator" >حاسبة منطقية</string>
+    <string name="base_calcolator_selected">اخترت الحاسبة الاولية</string>
+    <string name="logic_calculater_selected">اخترت الحاسبة المنطقية</string>
+    <string name="equetion_calculater_selected">اخترت حاسبة المعدلات</string>
+    <string name="base_calculator">حاسبة اولية</string>
+    <string name="equetion_solver_calculator">حاسبة المعدلات</string>
+    <string name="second_degree_equation">معدلة من الدرجة الثانية</string>
+    <string name="third_degree_equation">معدلة من الدرجة لثالثة</string>
+    <string name="equation_has_2_x">المعادلة لها حلان ، __NEWLINE__ x1 = __X1__ __NEWLINE__ x2 = __X2__ __NEWLINE__ جزر = __ROOT__  __NEWLINE__ Delta = __DELTA__</string>
+    <string name="equation_havent_solution">المعادلة ليس لها حل</string>
+    <string name="eqution_have_tow_solution">المعادلة لها حل واحد فقط __NEWLINE__ x1 = __X1__</string>
+    <string name="i_cant_resolve_this_expression">لا يمكنني حل هذه الصيغة</string>
+</resources>

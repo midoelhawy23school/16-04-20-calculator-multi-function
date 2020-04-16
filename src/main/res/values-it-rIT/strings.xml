@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calcolatrice Completa Ita</string>
+    <string name="welcome_msg" >Benvenuto</string>
+    <string name="logic_calcolator" >Calcolatrice Logica</string>
+    <string name="base_calcolator_selected">hai scelto la calcolatrice di base</string>
+    <string name="logic_calculater_selected">ha scelto la calcolatrice logica</string>
+    <string name="equetion_calculater_selected">ha scelto la calcolatrice di equazioni</string>
+    <string name="base_calculator">calcolatrice di base</string>
+    <string name="equetion_solver_calculator">Risolvitore di equazioni</string>
+    <string name="second_degree_equation">equazione di secondo grado</string>
+    <string name="third_degree_equation">equazione di terzo grado</string>
+    <string name="equation_has_2_x">l\'equazione ha due soluzioni , __NEWLINE__ x1 = __X1__ __NEWLINE__ x2 = __X2__ __NEWLINE__ radice = __ROOT__  __NEWLINE__ Delta = __DELTA__</string>
+    <string name="equation_havent_solution">l\'equazione non ha soluzione</string>
+    <string name="eqution_have_tow_solution">"l'equazione ha una sola soluzione __NEWLINE__ x1 = __X1__ "</string>
+    <string name="i_cant_resolve_this_expression">non riesco a risolvere questa espressione</string>
+</resources>
